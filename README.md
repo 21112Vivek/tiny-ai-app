@@ -94,4 +94,15 @@ See `setup_log.md` for a record of setup steps, troubleshooting, and learning jo
 
 
 For questions or feedback, open an issue or contact me via GitHub.
+## My journey
+## How I Started
+I began this project with a simple goal: build an AI-powered app that could answer questions intelligently. I chose Python as my language and explored Hugging Face’s models for question answering. I wanted the app to feel helpful and intuitive, so I added automatic spelling correction using TextBlob to improve user input.
+I started with a command-line version to understand the core logic and API integration. Once that was working, I challenged myself to build a web interface using Streamlit — something I had never used before. I also learned how to manage API keys securely using .env files and python-dotenv.
+
+## Challenges I Faced
+Got a 403 error from Hugging Face — solved it by correctly setting the API key in .env
+Initially tried GPT-style models, but they didn’t support question answering well — switched to roberta-base-squad2
+Faced issues with Streamlit buttons not triggering — learned how Streamlit handles state
+Learned that context size matters — too much text can confuse the model or slow down responses
+
 
