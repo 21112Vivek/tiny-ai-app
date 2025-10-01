@@ -88,9 +88,10 @@ See `setup_log.md` for a record of setup steps, troubleshooting, and learning jo
 
 ### Streamlit Web App
 
-![Streamlit UI](screenshots/streamlit_ui.png)
+![Streamlit UI](streamlit_ui.png)
 
 ## Contact
 
 
 For questions or feedback, open an issue or contact me via GitHub.
+
